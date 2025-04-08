@@ -5,8 +5,10 @@
 
 const taskManager = require('./lib/taskManager');
 const utils = require('./lib/utils');
+const mcpIntegration = require('./lib/mcp-integration');
 
 module.exports = {
   ...taskManager,
-  utils
+  utils,
+  mcpIntegration
 };
